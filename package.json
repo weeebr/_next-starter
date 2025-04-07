@@ -1,5 +1,5 @@
 {
-  "name": "prompt_library_next",
+  "name": "next_starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.8"
+    "dotenv-safe": "^9.1.0",
+    "next": "15.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "autoprefixer": "^10",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.1",
     "postcss": "^8",
     "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.8"
+    "typescript": "^5"
   }
 }
